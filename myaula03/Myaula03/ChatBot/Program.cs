@@ -8,27 +8,33 @@ namespace ChatBot
         {
             string respostas, perguntas;
 
-            Console.WriteLine("Qual sua questao?");
-            perguntas=Console.ReadLine();
-
-            switch(perguntas)
+            
+            bool sair = false;
+            while (!sair)
             {
-                case "Onde voce mora?":
-                    respostas = "Portugal ";
-                    break;
-                case "voce esta fodido em lp?":
-                    respostas = "Com Certeza ";
-                    break;
-                case "Porque fazes video jogos":
-                    respostas = "Soy Lokito ";
-                    break;
+                Console.WriteLine("Qual sua questao?");
+                perguntas = Console.ReadLine();
+
+                switch (perguntas)
+                {
+                    case "Onde voce mora?":
+                        respostas = "Portugal ";
+                break;
+                    case "voce esta fodido em lp?":
+                        respostas = "Com Certeza ";
+                break;
+                    case "Porque fazes video jogos":
+                        respostas = "Soy Lokito ";
+                break;
                 default:
-                    respostas = "é analfabeto fdp? ";
-                    break;
-
-
+                        respostas = "é analfabeto fdp? ";
+                break;
+                }
+                Console.WriteLine(respostas);
             }
-            Console.WriteLine(respostas);
+          
+               
+            }
+            
         }
     }
-}
