@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatBot", "ChatBot\ChatBot.csproj", "{83B4C4E7-A427-4518-97CB-3B09C8462ADF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piramide", "piramide\piramide.csproj", "{D82DC671-599C-4577-9F62-B571E7B57F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "percorrestring", "percorrestring\percorrestring.csproj", "{0C0CEDCB-535F-4452-A28C-B378C28F1D76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{83B4C4E7-A427-4518-97CB-3B09C8462ADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83B4C4E7-A427-4518-97CB-3B09C8462ADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83B4C4E7-A427-4518-97CB-3B09C8462ADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82DC671-599C-4577-9F62-B571E7B57F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82DC671-599C-4577-9F62-B571E7B57F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82DC671-599C-4577-9F62-B571E7B57F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82DC671-599C-4577-9F62-B571E7B57F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0CEDCB-535F-4452-A28C-B378C28F1D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0CEDCB-535F-4452-A28C-B378C28F1D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0CEDCB-535F-4452-A28C-B378C28F1D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0CEDCB-535F-4452-A28C-B378C28F1D76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
